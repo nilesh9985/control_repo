@@ -1,8 +1,5 @@
 node default{
-  file{ '/root/README':
-    ensure => file,
-    content => "this is conent of file",
-    owner   => 'root',
 }
-
+node 'waldevrddonp01.dev.rocketsoftware.com' {
+  include role::master_server
 }
