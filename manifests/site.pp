@@ -4,3 +4,5 @@ node default{
     content => "this is conent of file",
     owner   => 'root',
 }
+
+}
